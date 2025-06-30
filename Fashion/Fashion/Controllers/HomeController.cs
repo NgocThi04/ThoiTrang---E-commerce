@@ -38,7 +38,6 @@ namespace Fashion.Controllers
 
             var danhMucs = await _context.DanhMucs.Take(8).ToListAsync();
 
-            // Lấy danh sách sản phẩm yêu thích của user hiện tại
             List<int> favoriteProductIds = new List<int>();
             if (User.Identity.IsAuthenticated)
             {

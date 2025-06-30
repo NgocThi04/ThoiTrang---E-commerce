@@ -28,16 +28,13 @@ namespace Fashion.Controllers
             List<string> productFilters, 
             int pageNumber = 1)
         {
-            // Thêm log kiểm tra
             Console.WriteLine($"Fetching products. Filters: Categories:{danhMucIds?.Count ?? 0}, Price ranges:{priceRanges?.Count ?? 0}");
 
-            // Đơn giản hóa query ban đầu
             var query = _context.SanPhams
                 .Include(sp => sp.DanhGias)
                 .Include(sp => sp.DanhMuc)
                 .AsQueryable();
 
-            // Áp dụng các bộ lọc nếu có giá trị
             if (!string.IsNullOrEmpty(searchString))
                 query = query.Where(p => p.Ten.Contains(searchString));
 
@@ -79,14 +76,12 @@ namespace Fashion.Controllers
                 query = query.Where(productPredicate);
             }
 
-            // Kiểm tra trước khi phân trang
             var totalCount = await query.CountAsync();
             Console.WriteLine($"Total products found before pagination: {totalCount}");
 
             int pageSize = 9;
             var paginatedSanPhams = await PaginatedList<SanPham>.CreateAsync(query, pageNumber, pageSize);
 
-            // Truy vấn đơn giản hơn cho danh mục
             var categoriesWithCount = await _context.DanhMucs
                 .Select(dm => new SanPhamPageViewModel.CategoryWithCount
                 {
@@ -132,11 +127,9 @@ namespace Fashion.Controllers
                 return NotFound();
             }
             
-            // Lấy danh sách màu sắc và kích thước duy nhất
             var colors = sanPham.KichThuocSanPhams?.Select(k => k.MauSac).Distinct().ToList() ?? new List<string>();
             var sizes = sanPham.KichThuocSanPhams?.Select(k => k.KichThuoc).Distinct().ToList() ?? new List<string>();
 
-            // Lấy sản phẩm tương tự (cùng danh mục, khác sản phẩm hiện tại)
             var similarProducts = await _context.SanPhams
                 .Include(s => s.DanhGias)
                 .Where(s => s.DanhMucId == sanPham.DanhMucId && s.Id != sanPham.Id)
@@ -151,7 +144,6 @@ namespace Fashion.Controllers
             return View(sanPham);
         }
 
-        // Thêm action method này
         public async Task<IActionResult> Debug()
         {
             var products = await _context.SanPhams.ToListAsync();

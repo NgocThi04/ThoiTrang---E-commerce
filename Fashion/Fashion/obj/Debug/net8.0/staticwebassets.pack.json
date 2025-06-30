@@ -57,8 +57,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\banner.png",
-      "PackagePath": "staticwebassets\\images\\banner.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\IMG_1022.jpg",
+      "PackagePath": "staticwebassets\\images\\IMG_1022.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\banner1.png",
@@ -69,64 +69,48 @@
       "PackagePath": "staticwebassets\\images\\banner2.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 35.png",
-      "PackagePath": "staticwebassets\\images\\image 35.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image (5).png",
+      "PackagePath": "staticwebassets\\images\\image (5).png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 1.png",
+      "PackagePath": "staticwebassets\\images\\image 1.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 2.png",
+      "PackagePath": "staticwebassets\\images\\image 2.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 27.png",
+      "PackagePath": "staticwebassets\\images\\image 27.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 28.png",
+      "PackagePath": "staticwebassets\\images\\image 28.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 29.png",
+      "PackagePath": "staticwebassets\\images\\image 29.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 3.png",
+      "PackagePath": "staticwebassets\\images\\image 3.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 31.png",
+      "PackagePath": "staticwebassets\\images\\image 31.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 32.png",
+      "PackagePath": "staticwebassets\\images\\image 32.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 33.png",
+      "PackagePath": "staticwebassets\\images\\image 33.png"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 36.png",
       "PackagePath": "staticwebassets\\images\\image 36.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 38.png",
-      "PackagePath": "staticwebassets\\images\\image 38.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 40.png",
-      "PackagePath": "staticwebassets\\images\\image 40.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_10_6eb3a3f8.png",
-      "PackagePath": "staticwebassets\\images\\sp_10_6eb3a3f8.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_10_6f3d744e.png",
-      "PackagePath": "staticwebassets\\images\\sp_10_6f3d744e.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_10_f1508a89.png",
-      "PackagePath": "staticwebassets\\images\\sp_10_f1508a89.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_11_47ed9c84.png",
-      "PackagePath": "staticwebassets\\images\\sp_11_47ed9c84.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_11_9276fe81.png",
-      "PackagePath": "staticwebassets\\images\\sp_11_9276fe81.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_12_6f321af1.png",
-      "PackagePath": "staticwebassets\\images\\sp_12_6f321af1.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_12_c8da982c.png",
-      "PackagePath": "staticwebassets\\images\\sp_12_c8da982c.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_13_6a621ec1.png",
-      "PackagePath": "staticwebassets\\images\\sp_13_6a621ec1.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_13_7027cbb4.png",
-      "PackagePath": "staticwebassets\\images\\sp_13_7027cbb4.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_13_fd2f8bdd.png",
-      "PackagePath": "staticwebassets\\images\\sp_13_fd2f8bdd.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_14_4da568b8.png",
-      "PackagePath": "staticwebassets\\images\\sp_14_4da568b8.png"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_25fb15b8.png",
@@ -137,68 +121,56 @@
       "PackagePath": "staticwebassets\\images\\sp_15_50034cb9.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_78e9ba8f.png",
-      "PackagePath": "staticwebassets\\images\\sp_15_78e9ba8f.png"
-    },
-    {
       "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_a8df3f66.jpg",
       "PackagePath": "staticwebassets\\images\\sp_15_a8df3f66.jpg"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_bee034f8.png",
-      "PackagePath": "staticwebassets\\images\\sp_15_bee034f8.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_18_07d4f16f.png",
+      "PackagePath": "staticwebassets\\images\\sp_18_07d4f16f.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_16_0a2845ac.png",
-      "PackagePath": "staticwebassets\\images\\sp_16_0a2845ac.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_18_8e7d7920.png",
+      "PackagePath": "staticwebassets\\images\\sp_18_8e7d7920.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_16_606058ca.png",
-      "PackagePath": "staticwebassets\\images\\sp_16_606058ca.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_18_ebcdacfb.png",
+      "PackagePath": "staticwebassets\\images\\sp_18_ebcdacfb.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_16_684108a1.png",
-      "PackagePath": "staticwebassets\\images\\sp_16_684108a1.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_19_24b8dcf5.png",
+      "PackagePath": "staticwebassets\\images\\sp_19_24b8dcf5.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_16_a6114c88.png",
-      "PackagePath": "staticwebassets\\images\\sp_16_a6114c88.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_1_f111218f.png",
+      "PackagePath": "staticwebassets\\images\\sp_1_f111218f.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_18_2b2b5bf4.png",
-      "PackagePath": "staticwebassets\\images\\sp_18_2b2b5bf4.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_20_14d1a393.png",
+      "PackagePath": "staticwebassets\\images\\sp_20_14d1a393.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_6_689b2a1c.png",
-      "PackagePath": "staticwebassets\\images\\sp_6_689b2a1c.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_21_84e2982c.png",
+      "PackagePath": "staticwebassets\\images\\sp_21_84e2982c.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_6_a3f72675.png",
-      "PackagePath": "staticwebassets\\images\\sp_6_a3f72675.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_22_610edbc4.png",
+      "PackagePath": "staticwebassets\\images\\sp_22_610edbc4.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_7_720fa3ca.png",
-      "PackagePath": "staticwebassets\\images\\sp_7_720fa3ca.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_23_88f7c94a.png",
+      "PackagePath": "staticwebassets\\images\\sp_23_88f7c94a.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_7_945fc285.png",
-      "PackagePath": "staticwebassets\\images\\sp_7_945fc285.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_24_02f2339e.png",
+      "PackagePath": "staticwebassets\\images\\sp_24_02f2339e.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_8_c252d675.png",
-      "PackagePath": "staticwebassets\\images\\sp_8_c252d675.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_2_259db4e5.png",
+      "PackagePath": "staticwebassets\\images\\sp_2_259db4e5.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_9_860673f1.png",
-      "PackagePath": "staticwebassets\\images\\sp_9_860673f1.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_9_ee7b61d1.png",
-      "PackagePath": "staticwebassets\\images\\sp_9_ee7b61d1.png"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\test1.png",
-      "PackagePath": "staticwebassets\\images\\test1.png"
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_3_0730a9ee.jpg",
+      "PackagePath": "staticwebassets\\images\\sp_3_0730a9ee.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\js\\Home.js",

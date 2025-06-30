@@ -36,21 +36,18 @@ namespace Fashion.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Kiểm tra xem tên đăng nhập đã tồn tại chưa
                 if (await _context.NguoiDungs.AnyAsync(u => u.TenDangNhap == model.TenDangNhap))
                 {
                     ModelState.AddModelError("TenDangNhap", "Tên đăng nhập đã tồn tại.");
                     return View(model);
                 }
 
-                // Kiểm tra xem email đã tồn tại chưa
                 if (await _context.NguoiDungs.AnyAsync(u => u.Email == model.Email))
                 {
                     ModelState.AddModelError("Email", "Email đã được sử dụng.");
                     return View(model);
                 }
 
-                // Băm mật khẩu (cần triển khai logic băm an toàn hơn, ví dụ: BCrypt)
                 var hashedPassword = BCrypt.Net.BCrypt.HashPassword(model.MatKhau);
 
                 var nguoiDung = new NguoiDung
@@ -60,14 +57,13 @@ namespace Fashion.Controllers
                     HoTen = model.HoTen,
                     Email = model.Email,
                     SoDienThoai = model.SoDienThoai,
-                    VaiTro = "KhachHang", // Gán vai trò mặc định
+                    VaiTro = "KhachHang", 
                     NgayTao = System.DateTime.Now
                 };
 
                 _context.Add(nguoiDung);
                 await _context.SaveChangesAsync();
 
-                // Chuyển hướng đến trang đăng nhập sau khi đăng ký thành công
                 TempData["SuccessMessage"] = "Đăng ký thành công! Vui lòng đăng nhập.";
                 return RedirectToAction("Login");
             }
@@ -94,7 +90,6 @@ namespace Fashion.Controllers
 
                 if (user != null && BCrypt.Net.BCrypt.Verify(model.MatKhau, user.MatKhau))
                 {
-                    // Tạo các claims cho người dùng
                     var claims = new List<Claim>
                     {
                         new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
@@ -112,7 +107,6 @@ namespace Fashion.Controllers
                         ExpiresUtc = model.GhiNhoToi ? DateTimeOffset.UtcNow.AddDays(30) : (DateTimeOffset?)null
                     };
                     
-                    // Đăng nhập người dùng và tạo cookie xác thực
                     await HttpContext.SignInAsync(
                         CookieAuthenticationDefaults.AuthenticationScheme, 
                         new ClaimsPrincipal(claimsIdentity), 
@@ -128,7 +122,6 @@ namespace Fashion.Controllers
             return View(model);
         }
 
-        // POST: /Account/Logout
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
@@ -143,7 +136,7 @@ namespace Fashion.Controllers
             var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (!int.TryParse(userIdString, out var userId))
             {
-                return Challenge(); // Or handle appropriately
+                return Challenge(); 
             }
 
             var orders = await _context.DonHangs
@@ -216,7 +209,6 @@ namespace Fashion.Controllers
                 return NotFound();
             }
 
-            // Check if email is already used by another user
             if (await _context.NguoiDungs.AnyAsync(u => u.Email == model.Email && u.Id != user.Id))
             {
                 ModelState.AddModelError("Email", "Email này đã được sử dụng bởi một tài khoản khác.");
@@ -230,7 +222,6 @@ namespace Fashion.Controllers
             _context.Update(user);
             await _context.SaveChangesAsync();
 
-            // Optional: Refresh user claims if name has changed
             var identity = (ClaimsIdentity)User.Identity;
             var nameClaim = identity.FindFirst(ClaimTypes.Name);
             if (nameClaim != null && nameClaim.Value != user.HoTen)
@@ -279,7 +270,7 @@ namespace Fashion.Controllers
             await _context.SaveChangesAsync();
 
             TempData["SuccessMessage"] = "Đổi mật khẩu thành công!";
-            return RedirectToAction("Profile"); // Hoặc trang nào đó bạn muốn
+            return RedirectToAction("Profile");
         }
 
         private IActionResult RedirectToLocal(string? returnUrl)

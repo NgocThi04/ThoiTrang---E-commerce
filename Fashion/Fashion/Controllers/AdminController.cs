@@ -245,16 +245,13 @@ namespace Fashion.Controllers
             var product = _context.SanPhams.Include(p => p.SanPhamAnhs).FirstOrDefault(p => p.Id == id);
             if (product == null) return NotFound();
 
-            // Cập nhật thông tin cơ bản
             product.Ten = model.ProductName;
             product.MoTa = model.Description;
             product.Gia = model.RegularPrice;
             product.GiaGiam = model.SalePrice;
             
-            // Xử lý upload ảnh mới - THAY THẾ ảnh cũ
             if (newImages != null && newImages.Count > 0)
             {
-                // 1. Xóa ảnh cũ
                 var oldImages = _context.SanPhamAnhs.Where(i => i.SanPhamId == id).ToList();
                 if (oldImages.Any())
                 {
@@ -273,7 +270,6 @@ namespace Fashion.Controllers
                     _context.SanPhamAnhs.RemoveRange(oldImages);
                 }
 
-                // 2. Thêm ảnh mới
                 var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
                 if (!Directory.Exists(uploadPath))
                 {
@@ -298,7 +294,6 @@ namespace Fashion.Controllers
             
             await _context.SaveChangesAsync();
 
-            // 3. Cập nhật lại ảnh đại diện cho sản phẩm
             var firstImage = await _context.SanPhamAnhs.Where(a => a.SanPhamId == id).OrderBy(a => a.Id).FirstOrDefaultAsync();
             product.DuongDanAnh = firstImage?.DuongDan;
             
@@ -329,7 +324,6 @@ namespace Fashion.Controllers
                 TempData["ErrorMessage"] = "Không thể xóa sản phẩm đã có trong đơn hàng của khách.";
                 return RedirectToAction("ProductList");
             }
-// Xóa file ảnh vật lý
             if (product.SanPhamAnhs != null)
             {
                 var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
@@ -346,7 +340,6 @@ namespace Fashion.Controllers
                 }
             }
 
-            // Xóa các thực thể liên quan
             var relatedFavorites = _context.YeuThichs.Where(f => f.SanPhamId == id);
             _context.YeuThichs.RemoveRange(relatedFavorites);
 
@@ -356,7 +349,6 @@ namespace Fashion.Controllers
             _context.KichThuocSanPhams.RemoveRange(product.KichThuocSanPhams);
             _context.SanPhamAnhs.RemoveRange(product.SanPhamAnhs);
 
-            // Xóa sản phẩm
             _context.SanPhams.Remove(product);
 
             await _context.SaveChangesAsync();
@@ -378,7 +370,6 @@ namespace Fashion.Controllers
         {
             if (ModelState.IsValid)
             {
-                // 1. Tạo và lưu sản phẩm chính
                 var newProduct = new SanPham
                 {
                     Ten = model.ProductName,
@@ -390,9 +381,8 @@ namespace Fashion.Controllers
                     NgayTao = DateTime.UtcNow
                 };
                 _context.SanPhams.Add(newProduct);
-                await _context.SaveChangesAsync(); // Lưu để lấy Product ID
+                await _context.SaveChangesAsync();
 
-                // 2. Xử lý và lưu hình ảnh
                 if (model.ProductImages != null && model.ProductImages.Count > 0)
                 {
                     var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
@@ -401,12 +391,11 @@ namespace Fashion.Controllers
                         Directory.CreateDirectory(uploadPath);
                     }
                     
-                    string firstImagePath = null; // Biến để lưu đường dẫn ảnh đầu tiên
-foreach (var file in model.ProductImages)
+                    string firstImagePath = null; 
+                    foreach (var file in model.ProductImages)
                     {
                         if (file.Length > 0)
                         {
-                            // Tạo tên file duy nhất để tránh trùng lặp
                             var fileName = $"sp_{newProduct.Id}_{Guid.NewGuid().ToString().Substring(0, 8)}{Path.GetExtension(file.FileName)}";
                             var filePath = Path.Combine(uploadPath, fileName);
 
@@ -417,13 +406,11 @@ foreach (var file in model.ProductImages)
                             
                             var relativePath = $"images/{fileName}";
 
-                            // Nếu đây là ảnh đầu tiên, lưu đường dẫn của nó
                             if(firstImagePath == null)
                             {
                                 firstImagePath = relativePath;
                             }
 
-                            // Lưu đường dẫn vào bảng gallery
                             var newImage = new SanPhamAnh
                             {
                                 SanPhamId = newProduct.Id,
@@ -433,14 +420,12 @@ foreach (var file in model.ProductImages)
                         }
                     }
                     
-                    // Gán ảnh đầu tiên làm ảnh đại diện cho sản phẩm
                     if(firstImagePath != null)
                     {
                         newProduct.DuongDanAnh = firstImagePath;
                     }
                 }
                 
-                // 3. Xử lý và lưu kích thước & tồn kho
                 if (model.Sizes != null && model.Sizes.Any())
                 {
                     foreach (var size in model.Sizes)
@@ -463,16 +448,14 @@ foreach (var file in model.ProductImages)
                 return RedirectToAction("ProductList");
             }
 
-            // Nếu model không hợp lệ, load lại danh mục và trả về view
             ViewBag.Categories = _context.DanhMucs.ToList();
             return View(model);
         }
 
-        // Category Management
         public IActionResult CategoryList()
         {
             var categories = _context.DanhMucs
-.Include(c => c.SanPhams)
+                .Include(c => c.SanPhams)
                 .Select(c => new AdminCategoryListViewModel
                 {
                     Id = c.Id,
@@ -589,7 +572,6 @@ foreach (var file in model.ProductImages)
             return RedirectToAction("CategoryList");
         }
 
-        // User Management
         public async Task<IActionResult> UserList()
         {
             var users = await _context.NguoiDungs
@@ -656,7 +638,7 @@ foreach (var file in model.ProductImages)
                     _context.Update(user);
                     await _context.SaveChangesAsync();
                     TempData["SuccessMessage"] = "Thông tin người dùng đã được cập nhật.";
-return RedirectToAction(nameof(UserList));
+                    return RedirectToAction(nameof(UserList));
                 }
                 catch (DbUpdateException)
                 {
@@ -678,7 +660,6 @@ return RedirectToAction(nameof(UserList));
                 return RedirectToAction(nameof(UserList));
             }
 
-            // An toàn: Không cho xóa admin khác hoặc người dùng đã có đơn hàng.
             if (user.VaiTro.Equals("Admin", StringComparison.OrdinalIgnoreCase))
             {
                 TempData["ErrorMessage"] = "Không thể xóa tài khoản Quản trị viên.";
@@ -734,7 +715,7 @@ return RedirectToAction(nameof(UserList));
 
                     _context.NguoiDungs.Add(user);
                     await _context.SaveChangesAsync();
-TempData["SuccessMessage"] = "Tạo người dùng mới thành công!";
+                    TempData["SuccessMessage"] = "Tạo người dùng mới thành công!";
                     return RedirectToAction(nameof(UserList));
                 }
             }
@@ -742,7 +723,6 @@ TempData["SuccessMessage"] = "Tạo người dùng mới thành công!";
             return View(model);
         }
 
-        // Contact Management
         public async Task<IActionResult> ContactList()
         {
             var contacts = await _context.LienHes
@@ -820,7 +800,7 @@ TempData["SuccessMessage"] = "Tạo người dùng mới thành công!";
                     _context.Update(contact);
                     await _context.SaveChangesAsync();
                     TempData["SuccessMessage"] = "Phản hồi đã được lưu thành công!";
-return RedirectToAction(nameof(ContactList));
+                    return RedirectToAction(nameof(ContactList));
                 }
                 catch (DbUpdateException)
                 {
@@ -828,7 +808,6 @@ return RedirectToAction(nameof(ContactList));
                 }
             }
 
-            // Nếu có lỗi, load lại thông tin contact
             var contactReload = await _context.LienHes
                 .Include(l => l.NguoiDung)
                 .FirstOrDefaultAsync(l => l.Id == id);

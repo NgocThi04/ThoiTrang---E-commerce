@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 
 namespace Fashion.Controllers
 {
-    // [Authorize] // BỎ dòng này để tự kiểm tra đăng nhập trong từng action
     public class YeuThichController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -49,7 +48,7 @@ namespace Fashion.Controllers
 
         // GET: /YeuThich/CheckStatus/5
         [HttpGet]
-        public async Task<IActionResult> CheckStatus(int id) // Product ID
+        public async Task<IActionResult> CheckStatus(int id) 
         {
             var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 
@@ -62,7 +61,7 @@ namespace Fashion.Controllers
         // POST: /YeuThich/Toggle/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Toggle(int id) // Product ID
+        public async Task<IActionResult> Toggle(int id) 
         {
             if (!User.Identity.IsAuthenticated)
             {

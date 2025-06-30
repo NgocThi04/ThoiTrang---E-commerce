@@ -34,7 +34,7 @@ namespace Fashion.Controllers
             var user = await _context.NguoiDungs.FindAsync(userId);
             var cartItems = await _context.GioHangs
                                           .Include(g => g.KichThuocSanPham)
-                                              .ThenInclude(kt => kt.SanPham) // Ensure SanPham is loaded
+                                              .ThenInclude(kt => kt.SanPham) 
                                           .Where(g => g.NguoiDungId == userId)
                                           .ToListAsync();
 
@@ -45,7 +45,7 @@ namespace Fashion.Controllers
             }
 
             var subTotal = cartItems.Sum(item => GetProductPrice(item.KichThuocSanPham.SanPham) * item.SoLuong);
-            var total = subTotal; // No shipping or tax
+            var total = subTotal;
 
             var viewModel = new ThanhToanViewModel
             {
@@ -89,7 +89,7 @@ namespace Fashion.Controllers
                     }
 
                     var subTotal = cartItems.Sum(item => GetProductPrice(item.KichThuocSanPham.SanPham) * item.SoLuong);
-                    var total = subTotal; // No shipping or tax
+                    var total = subTotal; 
 
                     var order = new DonHang
                     {
@@ -137,7 +137,6 @@ namespace Fashion.Controllers
                         errorMessage += " ---> " + ex.InnerException.Message;
                     }
 
-                    // In production, log this error. For debugging, we return it.
                     return Json(new { success = false, message = $"Lỗi máy chủ nội bộ: {errorMessage}" });
                 }
             }

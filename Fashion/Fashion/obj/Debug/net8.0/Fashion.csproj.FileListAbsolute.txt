@@ -896,3 +896,4 @@ C:\Users\PC\Desktop\Fashion\Fashion\Fashion\obj\Debug\net8.0\refint\Fashion.dll
 C:\Users\PC\Desktop\Fashion\Fashion\Fashion\obj\Debug\net8.0\Fashion.pdb
 C:\Users\PC\Desktop\Fashion\Fashion\Fashion\obj\Debug\net8.0\Fashion.genruntimeconfig.cache
 C:\Users\PC\Desktop\Fashion\Fashion\Fashion\obj\Debug\net8.0\ref\Fashion.dll
+C:\Users\PC\Desktop\Fashion\Fashion\Fashion\obj\Debug\net8.0\Fashion.sourcelink.json
