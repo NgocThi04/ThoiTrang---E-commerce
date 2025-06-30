@@ -1,0 +1,881 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\viewmodels\\sanphampageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\viewmodels\\sanphampageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\controllers\\yeuthichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\controllers\\yeuthichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\account\\orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\account\\orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\wwwroot\\css\\orderhistory.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\orderhistory.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\viewmodels\\orderhistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\viewmodels\\orderhistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\controllers\\thanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\controllers\\thanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\wwwroot\\css\\giohang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\giohang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\yeuthich\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\yeuthich\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\migrations\\20250626085102_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\migrations\\20250626085102_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\wwwroot\\css\\sanpham.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\sanpham.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\sanpham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\sanpham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\migrations\\20250621161204_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\migrations\\20250621161204_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\editorderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\editorderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\contactdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\contactdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\views\\admin\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\views\\admin\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\viewmodels\\adminaddproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\viewmodels\\adminaddproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\viewmodels\\giohangviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\viewmodels\\giohangviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|c:\\users\\pc\\desktop\\fashion\\fashion\\fashion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\wwwroot\\css\\xacnhanthanhtoan.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\xacnhanthanhtoan.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\fashion\\wwwroot\\css\\admindashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE5760BD-3EF9-4D0C-A4C4-B7D67B494CFB}|Fashion\\Fashion.csproj|solutionrelative:fashion\\wwwroot\\css\\admindashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Fashion\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Fashion\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAlwPIAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:16:56.97Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAQwK8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T02:16:24.579Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T00:59:38.753Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Header.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Header.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\Header.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Header.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\Header.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-28T22:52:03.666Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Footer.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Footer.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\Footer.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Footer.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\Footer.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-24T00:59:56.849Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Giohang.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Giohang.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\Giohang.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Giohang.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\Giohang.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-29T07:05:10.988Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Contact.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\Contact.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Contact.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\Contact.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-29T08:27:20.256Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\GioHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\GioHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\GioHang\\Index.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\GioHang\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T00:32:13.497Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Account\\OrderHistory.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Account\\OrderHistory.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Account\\OrderHistory.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Account\\OrderHistory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T10:23:07.721Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderHistory.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\OrderHistory.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\OrderHistory.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\OrderHistory.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\OrderHistory.css",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-29T07:05:30.408Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHIAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T11:14:12.294Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T00:31:35.438Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAQwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T12:44:24.391Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE0AAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T13:05:09.785Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\EditProduct.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\EditProduct.cshtml",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAlwFcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T13:44:24.334Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderList.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\OrderList.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\OrderList.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\OrderList.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\OrderList.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHEAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T14:53:46.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\ProductList.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\ProductList.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\ProductList.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T13:43:23.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SanPhamPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\SanPhamPageViewModel.cs",
+              "RelativeDocumentMoniker": "Fashion\\ViewModels\\SanPhamPageViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\SanPhamPageViewModel.cs",
+              "RelativeToolTip": "Fashion\\ViewModels\\SanPhamPageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T13:43:07.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\AddCategory.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\AddCategory.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\AddCategory.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T13:04:51.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\SanPham\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\SanPham\\Index.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T07:03:34.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ThanhToanController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\ThanhToanController.cs",
+              "RelativeDocumentMoniker": "Fashion\\Controllers\\ThanhToanController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\ThanhToanController.cs",
+              "RelativeToolTip": "Fashion\\Controllers\\ThanhToanController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:21:40.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Fashion\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Fashion\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAwwH8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:22:12.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T23:01:39.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\YeuThich\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\YeuThich\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\YeuThich\\Index.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\YeuThich\\Index.cshtml",
+              "ViewState": "AQIAAEABAAAAAAAAAAAAABYBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T09:13:08.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Sanpham.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Sanpham.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\Sanpham.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Sanpham.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\Sanpham.css",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAwwN8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-29T07:04:41.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "YeuThichController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\YeuThichController.cs",
+              "RelativeDocumentMoniker": "Fashion\\Controllers\\YeuThichController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\YeuThichController.cs",
+              "RelativeToolTip": "Fashion\\Controllers\\YeuThichController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwC4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:12:55.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T08:25:17.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderHistoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\OrderHistoryViewModel.cs",
+              "RelativeDocumentMoniker": "Fashion\\ViewModels\\OrderHistoryViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\OrderHistoryViewModel.cs",
+              "RelativeToolTip": "Fashion\\ViewModels\\OrderHistoryViewModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:44:47.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "Fashion\\Controllers\\SanPhamController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "Fashion\\Controllers\\SanPhamController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAgwG4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:03:09.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250621161204_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Migrations\\20250621161204_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Fashion\\Migrations\\20250621161204_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Migrations\\20250621161204_InitialCreate.cs",
+              "RelativeToolTip": "Fashion\\Migrations\\20250621161204_InitialCreate.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:43:17.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250626085102_update.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Migrations\\20250626085102_update.cs",
+              "RelativeDocumentMoniker": "Fashion\\Migrations\\20250626085102_update.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Migrations\\20250626085102_update.cs",
+              "RelativeToolTip": "Fashion\\Migrations\\20250626085102_update.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:43:09.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Fashion\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Fashion\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:43:08.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "Fashion\\Controllers\\GioHangController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "Fashion\\Controllers\\GioHangController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T00:15:06.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\SanPham\\Details.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\SanPham\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\SanPham\\Details.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\SanPham\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEBAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T00:34:22.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EditOrderStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\EditOrderStatus.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\EditOrderStatus.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\EditOrderStatus.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\EditOrderStatus.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T00:32:06.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EditCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\EditCategory.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\EditCategory.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\EditCategory.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\EditCategory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T00:32:03.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ContactDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\ContactDetail.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\ContactDetail.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\ContactDetail.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\ContactDetail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T00:31:49.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CategoryList.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\CategoryList.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\CategoryList.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\CategoryList.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\CategoryList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T00:31:47.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "Fashion\\Views\\Admin\\AddUser.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Views\\Admin\\AddUser.cshtml",
+              "RelativeToolTip": "Fashion\\Views\\Admin\\AddUser.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T00:31:41.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Fashion\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Fashion\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T00:15:05.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Xacnhanthanhtoan.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Xacnhanthanhtoan.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\Xacnhanthanhtoan.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Xacnhanthanhtoan.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\Xacnhanthanhtoan.css",
+              "ViewState": "AQIAACUCAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-27T02:25:00.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GioHangViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\GioHangViewModel.cs",
+              "RelativeDocumentMoniker": "Fashion\\ViewModels\\GioHangViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\GioHangViewModel.cs",
+              "RelativeToolTip": "Fashion\\ViewModels\\GioHangViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:20:41.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-27T02:18:52.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AdminDashboard.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\AdminDashboard.css",
+              "RelativeDocumentMoniker": "Fashion\\wwwroot\\css\\AdminDashboard.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\AdminDashboard.css",
+              "RelativeToolTip": "Fashion\\wwwroot\\css\\AdminDashboard.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-27T02:17:09.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Fashion\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "Fashion\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:15:49.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AdminAddProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\AdminAddProductViewModel.cs",
+              "RelativeDocumentMoniker": "Fashion\\ViewModels\\AdminAddProductViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\ViewModels\\AdminAddProductViewModel.cs",
+              "RelativeToolTip": "Fashion\\ViewModels\\AdminAddProductViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:15:43.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\appsettings.json",
+              "RelativeDocumentMoniker": "Fashion\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\appsettings.json",
+              "RelativeToolTip": "Fashion\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T07:34:16.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Program.cs",
+              "RelativeDocumentMoniker": "Fashion\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\Program.cs",
+              "RelativeToolTip": "Fashion\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:33:56.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1496,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

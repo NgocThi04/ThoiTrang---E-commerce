@@ -1,0 +1,465 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Fashion.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Fashion.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\AdminContact.css",
+      "PackagePath": "staticwebassets\\css\\AdminContact.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\AdminDashboard.css",
+      "PackagePath": "staticwebassets\\css\\AdminDashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Chitietsanpham.css",
+      "PackagePath": "staticwebassets\\css\\Chitietsanpham.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Footer.css",
+      "PackagePath": "staticwebassets\\css\\Footer.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Giohang.css",
+      "PackagePath": "staticwebassets\\css\\Giohang.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Header.css",
+      "PackagePath": "staticwebassets\\css\\Header.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\OrderHistory.css",
+      "PackagePath": "staticwebassets\\css\\OrderHistory.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Sanpham.css",
+      "PackagePath": "staticwebassets\\css\\Sanpham.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\Xacnhanthanhtoan.css",
+      "PackagePath": "staticwebassets\\css\\Xacnhanthanhtoan.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\banner1.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\banner2.png",
+      "PackagePath": "staticwebassets\\images\\banner2.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 35.png",
+      "PackagePath": "staticwebassets\\images\\image 35.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 36.png",
+      "PackagePath": "staticwebassets\\images\\image 36.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 38.png",
+      "PackagePath": "staticwebassets\\images\\image 38.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\image 40.png",
+      "PackagePath": "staticwebassets\\images\\image 40.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_10_6eb3a3f8.png",
+      "PackagePath": "staticwebassets\\images\\sp_10_6eb3a3f8.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_10_6f3d744e.png",
+      "PackagePath": "staticwebassets\\images\\sp_10_6f3d744e.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_10_f1508a89.png",
+      "PackagePath": "staticwebassets\\images\\sp_10_f1508a89.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_11_47ed9c84.png",
+      "PackagePath": "staticwebassets\\images\\sp_11_47ed9c84.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_11_9276fe81.png",
+      "PackagePath": "staticwebassets\\images\\sp_11_9276fe81.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_12_6f321af1.png",
+      "PackagePath": "staticwebassets\\images\\sp_12_6f321af1.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_12_c8da982c.png",
+      "PackagePath": "staticwebassets\\images\\sp_12_c8da982c.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_13_6a621ec1.png",
+      "PackagePath": "staticwebassets\\images\\sp_13_6a621ec1.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_13_7027cbb4.png",
+      "PackagePath": "staticwebassets\\images\\sp_13_7027cbb4.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_13_fd2f8bdd.png",
+      "PackagePath": "staticwebassets\\images\\sp_13_fd2f8bdd.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_14_4da568b8.png",
+      "PackagePath": "staticwebassets\\images\\sp_14_4da568b8.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_25fb15b8.png",
+      "PackagePath": "staticwebassets\\images\\sp_15_25fb15b8.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_50034cb9.png",
+      "PackagePath": "staticwebassets\\images\\sp_15_50034cb9.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_78e9ba8f.png",
+      "PackagePath": "staticwebassets\\images\\sp_15_78e9ba8f.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_a8df3f66.jpg",
+      "PackagePath": "staticwebassets\\images\\sp_15_a8df3f66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_15_bee034f8.png",
+      "PackagePath": "staticwebassets\\images\\sp_15_bee034f8.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_16_0a2845ac.png",
+      "PackagePath": "staticwebassets\\images\\sp_16_0a2845ac.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_16_606058ca.png",
+      "PackagePath": "staticwebassets\\images\\sp_16_606058ca.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_16_684108a1.png",
+      "PackagePath": "staticwebassets\\images\\sp_16_684108a1.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_16_a6114c88.png",
+      "PackagePath": "staticwebassets\\images\\sp_16_a6114c88.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_18_2b2b5bf4.png",
+      "PackagePath": "staticwebassets\\images\\sp_18_2b2b5bf4.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_6_689b2a1c.png",
+      "PackagePath": "staticwebassets\\images\\sp_6_689b2a1c.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_6_a3f72675.png",
+      "PackagePath": "staticwebassets\\images\\sp_6_a3f72675.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_7_720fa3ca.png",
+      "PackagePath": "staticwebassets\\images\\sp_7_720fa3ca.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_7_945fc285.png",
+      "PackagePath": "staticwebassets\\images\\sp_7_945fc285.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_8_c252d675.png",
+      "PackagePath": "staticwebassets\\images\\sp_8_c252d675.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_9_860673f1.png",
+      "PackagePath": "staticwebassets\\images\\sp_9_860673f1.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\sp_9_ee7b61d1.png",
+      "PackagePath": "staticwebassets\\images\\sp_9_ee7b61d1.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\images\\test1.png",
+      "PackagePath": "staticwebassets\\images\\test1.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\js\\Home.js",
+      "PackagePath": "staticwebassets\\js\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\js\\Sanpham.js",
+      "PackagePath": "staticwebassets\\js\\Sanpham.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\js\\header-footer.js",
+      "PackagePath": "staticwebassets\\js\\header-footer.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\Fashion\\Fashion\\Fashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Fashion.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Fashion.props",
+      "PackagePath": "build\\Fashion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fashion.props",
+      "PackagePath": "buildMultiTargeting\\Fashion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fashion.props",
+      "PackagePath": "buildTransitive\\Fashion.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

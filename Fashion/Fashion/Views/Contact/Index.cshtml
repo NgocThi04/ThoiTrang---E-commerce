@@ -1,0 +1,52 @@
+@model Fashion.ViewModels.ContactViewModel
+@{
+    ViewData["Title"] = "Liên Hệ Với Chúng Tôi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/Contact.css" />
+
+<div class="contact-page-container">
+    <div class="contact-header">
+        <h1>Liên Hệ Với Chúng Tôi</h1>
+        <p>Chúng Tôi Luôn Lắng Nghe Và Sẵn Sàng Hỗ Trợ Bạn. Hãy Chia Sẻ Với Chúng Tôi Những Điều Bạn Quan Tâm.</p>
+    </div>
+    <div class="contact-form-card">
+        
+        @if (User.Identity.IsAuthenticated)
+        {
+            if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+            }
+            if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+            }
+            <form asp-controller="Contact" asp-action="Submit" method="post">
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <label asp-for="NoiDung">Nội Dung Tin Nhắn</label>
+                    <textarea asp-for="NoiDung" rows="8" placeholder="Hãy chia sẻ với chúng tôi câu hỏi hoặc phản hồi của bạn..."></textarea>
+                    <span asp-validation-for="NoiDung" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn-submit">Gửi Tin Nhắn</button>
+            </form>
+        }
+        else
+        {
+            <div class="login-prompt">
+                <i class="bi bi-exclamation-triangle-fill"></i>
+                <span>Vui Lòng Đăng Nhập Để Gửi Tin Nhắn Liên Hệ!</span>
+                <a asp-controller="Account" asp-action="Login" class="btn-login">
+                    <i class="bi bi-box-arrow-in-right"></i> Đăng Nhập
+                </a>
+            </div>
+        }
+    </div>
+   
+     
+
+        
+   
+</div>

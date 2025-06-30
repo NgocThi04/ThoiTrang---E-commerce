@@ -1,0 +1,184 @@
+@model Fashion.ViewModels.ProfileViewModel
+@{
+    ViewData["Title"] = "Thông tin cá nhân";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+<style>
+    .profile-container {
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        border: 1px solid #DEDFE1;
+        max-width: 400px;
+        margin: 40px auto;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .form-title {
+        font-size: 24px;
+        font-weight: 600;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        font-weight: 600;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .form-control {
+        border-radius: 150px;
+        padding: 10px 20px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .input-wrapper {
+        position: relative;
+    }
+
+    .password-toggle {
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        color: #6c757d;
+    }
+
+    .submit-btn {
+        background-color: #222;
+        color: white;
+        border: none;
+        border-radius: 150px;
+        padding: 12px 24px;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+
+        .submit-btn:hover {
+            background-color: #000;
+        }
+
+</style>
+
+<div class="profile-container">
+    <div class="profile-header">
+        <h2>@ViewData["Title"]</h2>
+        <p>Quản lý thông tin cá nhân của bạn.</p>
+    </div>
+
+    @if (ViewData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @ViewData["SuccessMessage"]
+        </div>
+    }
+
+    <form asp-action="Profile" method="post">
+        @Html.AntiForgeryToken()
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="HoTen" class="form-label"></label>
+            <input asp-for="HoTen" class="form-control" />
+            <span asp-validation-for="HoTen" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SoDienThoai" class="form-label"></label>
+            <input asp-for="SoDienThoai" class="form-control" />
+            <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+        </div>
+
+        <div class="form-group text-center">
+            <button type="submit" class="submit-btn w-100 mt-2">Lưu thay đổi</button>
+        </div>
+    </form>
+</div>
+
+<div class="profile-container mt-4">
+    <div class="profile-header">
+        <h4 class="form-title">Đổi mật khẩu</h4>
+    </div>
+
+    @if (TempData["PasswordSuccess"] != null)
+    {
+        <div class="alert alert-success">@TempData["PasswordSuccess"]</div>
+    }
+    @if (TempData["PasswordError"] != null)
+    {
+        <div class="alert alert-danger">@TempData["PasswordError"]</div>
+    }
+
+    <form asp-action="ChangePassword" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label class="form-label" for="OldPassword">Mật khẩu cũ</label>
+            <div class="input-wrapper">
+                <input name="OldPassword" id="OldPassword" type="password" class="form-input form-control" placeholder="Mật khẩu cũ" required />
+                <button type="button" class="password-toggle" onclick="togglePassword('OldPassword')">
+                    <i class="bi bi-eye" id="icon-OldPassword"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label" for="NewPassword">Mật khẩu mới</label>
+            <div class="input-wrapper">
+                <input name="NewPassword" id="NewPassword" type="password" class="form-input form-control" placeholder="Mật khẩu mới" required />
+                <button type="button" class="password-toggle" onclick="togglePassword('NewPassword')">
+                    <i class="bi bi-eye" id="icon-NewPassword"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label" for="ConfirmPassword">Xác nhận mật khẩu mới</label>
+            <div class="input-wrapper">
+                <input name="ConfirmPassword" id="ConfirmPassword" type="password" class="form-input form-control" placeholder="Xác nhận mật khẩu mới" required />
+                <button type="button" class="password-toggle" onclick="togglePassword('ConfirmPassword')">
+                    <i class="bi bi-eye" id="icon-ConfirmPassword"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="form-group text-center">
+            <button type="submit" class="submit-btn w-100 mt-2">Đổi mật khẩu</button>
+        </div>
+    </form>
+</div>
+@section Scripts {
+    <script>
+        function togglePassword(inputId) {
+            const input = document.getElementById(inputId);
+            const icon = document.getElementById('icon-' + inputId);
+            if (input.type === 'password') {
+                input.type = 'text';
+                icon?.classList.replace('bi-eye', 'bi-eye-slash');
+            } else {
+                input.type = 'password';
+                icon?.classList.replace('bi-eye-slash', 'bi-eye');
+            }
+        }
+    </script>
+    <partial name="_ValidationScriptsPartial" />
+}
